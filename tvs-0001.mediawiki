@@ -1,0 +1,89 @@
+<pre>
+  BIP: 1
+  Title: True Vision Scriptures and Specifications
+  Author: The Followers <satoshisfollowers@db.com>
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin-clashic/tvs/wiki/Comments:BIP-0001
+  Status: Axiomatic
+  Type: Holy
+  Created: 2017-11-24
+</pre>
+
+==What is a TVS?==
+
+TVS stands for True Vision Scripture. A TVS is a holy document derived by the holy scripts of the Foundational Scripture <bitcoin.org/bitcoin.pdf>.
+
+We intend TVSs to be the primary source for specifying the details of the One True Vision. The TVS author is responsible for studying the Foundational Scripture and documenting the hidden wisdom of thy maker.
+
+==TVS Types==
+
+TODO
+
+==TVS Work Flow==
+
+TODO
+
+==What belongs in a successful TVS?==
+
+TODO
+
+==TVS Formats and Templates==
+
+BIPs should be written in mediawiki or markdown format.
+
+===TVS Header Preamble===
+
+Each TVS must begin with an RFC 822 style header preamble. The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
+
+<pre>
+  TVS: <TVS number>
+  Title: <TVS title>
+  Author: <list of authors' real names and optionally, email addrs>
+* Discussions-To: <email address>
+  Status: <Draft | Active | Accepted | Deferred | Rejected |
+           Withdrawn | Final | Superseded>
+  Type: <Standards Track | Informational | Process>
+  Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
+* Post-History: <dates of postings to bitcoin mailing list>
+* Replaces: <TVS number>
+* Superseded-By: <TVS number>
+* Resolution: <url>
+</pre>
+
+The Author header lists the names, and optionally the email addresses of all the authors/owners of the TVS. The format of the Author header value must be
+
+  Random J. User <address@dom.ain>
+
+if the email address is included, and just
+
+  Random J. User
+
+if the address is not given.
+
+If there are multiple authors, each should be on a separate line following RFC 2822 continuation line conventions.
+
+Note: The Resolution header is required for Standards Track TVSs only. It contains a URL that should point to an email message or other web resource where the pronouncement about the TVS is made.
+
+While a TVS is in private discussions (usually during the initial Draft phase), a Discussions-To header will indicate the mailing list or URL where the TVS is being discussed. No Discussions-To header is necessary if the TVS is being discussed privately with the author, or on the bitcoin email mailing lists.
+
+The Type header specifies the type of TVS: Standards Track, Informational, or Process.
+
+The Created header records the date that the TVS was assigned a number, while Post-History is used to record the dates of when new versions of the TVS are posted to bitcoin mailing lists. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
+
+TVSs may have a Requires header, indicating the TVS numbers that this TVS depends on.
+
+TVSs may also have a Superseded-By header indicating that a TVS has been rendered obsolete by a later document; the value is the number of the TVS that replaces the current document. The newer TVS must have a Replaces header containing the number of the TVS that it rendered obsolete.
+
+===Auxiliary Files===
+
+TVSs may include auxiliary files such as diagrams. Image files should be included in a subdirectory for that TVS. Auxiliary files must be named TVS-XXXX-Y.ext, where "XXXX" is the TVS number, "Y" is a serial number (starting at 1), and "ext" is replaced by the actual file extension (e.g. "png").
+
+==Transferring TVS Ownership==
+
+It occasionally becomes necessary to transfer ownership of TVSs to a new champion. In general, we'd like to retain the original author as a co-author of the transferred TVS, but that's really up to the original author. A good reason to transfer ownership is because the original author no longer has the time or interest in updating it or following through with the TVS process, or has fallen off the face of the 'net (i.e. is unreachable or not responding to email). A bad reason to transfer ownership is because you don't agree with the direction of the TVS. We try to build consensus around a TVS, but if that's not possible, you can always submit a competing TVS.
+
+If you are interested in assuming ownership of a TVS, send a message asking to take over, addressed to both the original author and the TVS editor. If the original author doesn't respond to email in a timely manner, the TVS editor will make a unilateral decision (it's not like such decisions can't be reversed :).
+
+==History==
+
+This document was derived heavily from Bitcoin's BIP-0001 and that in order from Python's PEP-0001.
