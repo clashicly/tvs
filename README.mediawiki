@@ -20,4 +20,11 @@ Those proposing changes should consider that ultimately consent may rest with th
 | -
 | Holy
 | Axiomatic
+|- style="background-color: #ffcfcf"
+| [[tvs-0042.mediawiki|42]]
+|
+| Proof of Timeshare Revelations
+| -
+| Hermeneutic
+| Inevitable
 |}
