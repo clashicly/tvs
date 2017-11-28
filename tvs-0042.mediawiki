@@ -1,0 +1,23 @@
+  TVS: 42
+  Title: Proof of Timeshare Revelations
+  Author: nothingmuch <nothingmuch@woobling.org>
+  Comments-Summary: Several likes on twitter!!!
+  Comments-URI: https://github.com/bitcoin-clashic/tvs/wiki/Comments:BIP-0042
+  Status: Incentive structure already in place
+  Type: Hermeneutic
+  Created: 2017-08-01
+
+= Proof of Timeshare =
+== Block Time as Proof of Work in Bitcoin Clashic ==
+
+Assuming very low difficulty (as per the emergency difficulty adjustment), Bitcoin Clashic miners could rapidly mine up to 2005 blocks in quick succession, while still allowing arbitrarily long values for the median time past to rapidly counteract any difficulty adjustments that result from these bursts of blocks.
+
+This presents two-state system for mining Bitcoin Clashic - an EDA baseline schedule, with a 2 hour block time, punctuated by sequences of rapid blocks.
+
+During the burtsty periods (known as "godshpeed") the *rate of block discovery* (along with any difficulty adjustments) can be interpreted as a proof of work provided by a quorum of miners with a lower bound on their combined hash power, even if they are for the most part mining another currency (e.g. Bitcoin, or Bitcoin Cash).
+
+The baseline blocks are considered low security pre-blocks, whereas full commitments to a chain involves at least some number of blocks with a sufficiently low average block time between them, as a measure of the hash power occasionally securing the network.
+
+This ensures wasteful proof of work is provided only as necessary to maintain the security of the network, while still allowing transactions to be processed with no security in between block bursts, following Satoshi's vision for zero confirmation payments.
+
+With enough of this form of proof of work accumulated, miners are periodically rewarded with a resetting of the block reward assuming that [[https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki|the true original vision for the issuance curve is preserved]].
