@@ -1,8 +1,4 @@
-# True-True-Vision-Works
-The original true true Bitcoin vision
-
-
-Roadmap & Scaling
+== Roadmap & Scaling ==
 
 The original true true vision Bitcoin scaling roadmap currently includes
 
