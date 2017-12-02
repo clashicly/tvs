@@ -27,7 +27,6 @@ Those proposing changes should consider that ultimately consent may rest with th
 | -
 | Speculative
 | Dogma
-|
 |- style="background-color: #ffcfcf"
 | [[tvs-0042.mediawiki|42]]
 |
