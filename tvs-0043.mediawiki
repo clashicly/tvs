@@ -1,0 +1,51 @@
+<pre>
+  TVS: 43
+  Title: Replay Protection from Bitcoin Cash Transactions
+  Author: Clashicly Trained <clashicly@gmail.com>
+  Comments-Summary: No comments yet.
+  Comments-URI: https://github.com/bitcoin-clashic/tvs/wiki/Comments:TVS-0043
+  Status: Draft
+  Type: Standards Track
+  Created: 2018-01-30
+</pre>
+
+==Abstract==
+
+This TVS proposes a scheme for adding Replay Protection.
+
+==Motivation==
+
+Stop replaying of Bitcoin Cash transactions on Bitcoin Clashic blockchain.
+
+Reduce unintended spamming on Bitcoin Clashic blockchain.
+
+Reduce loss of Bitcoin Clashic for Bitcoin Cash senders.
+
+Eliminate gain of Bitcoin Clashic to recipients of replayed trasactons.
+
+==Rationale==
+
+Bitcoin Cash transactors are inadvertantly sending Bitcoin Clashic when sending Bitcoin Cash.
+
+Exchanges requiring Replay Protection before listing $BCL/$BCHC
+
+==Deployment==
+
+This TVS will be deployed by Block Height and Bitcoin Clashic ABCD client version.
+
+
+==Compatibility==
+
+TBA
+
+==Implementation==
+
+TBA
+
+==Acknowledgements==
+
+TBA
+
+==Copyright==
+
+This document is placed in the public domain.
